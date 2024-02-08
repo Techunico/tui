@@ -1,0 +1,7 @@
+Setup .gitignore to ignore certain files in your Git repository
+Running the Chromatic command may generate certain files for logging and debugging purposes. Exactly which files it generates depends on your configuration, but these entries should likely be added to your .gitignore file:
+
+build-storybook.log
+chromatic.log
+chromatic-build-*.xml
+chromatic-diagnostics.json
